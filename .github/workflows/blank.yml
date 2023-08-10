@@ -3,7 +3,12 @@ name: AviRDP
 on: workflow_dispatch
 
 jobs:
+
   build:
-    runs-on: windows-latest
-    timeout-minutes: 9999
+  
+    runs-on: ubuntu-22.04
+    timeout-minutes: 180
     steps:
+    -name: run lscpu
+    run: lscpu
+    
