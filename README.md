@@ -1,1 +1,1 @@
-# Não em ở sao hỏa
+#BASH
